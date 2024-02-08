@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Freddy-Rios/handling-cards.git/static/css/main.1e4c1fb7.css",
+    "main.js": "/Freddy-Rios/handling-cards.git/static/js/main.38aeb4b0.js",
+    "index.html": "/Freddy-Rios/handling-cards.git/index.html",
+    "main.1e4c1fb7.css.map": "/Freddy-Rios/handling-cards.git/static/css/main.1e4c1fb7.css.map",
+    "main.38aeb4b0.js.map": "/Freddy-Rios/handling-cards.git/static/js/main.38aeb4b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e4c1fb7.css",
+    "static/js/main.38aeb4b0.js"
+  ]
+}
