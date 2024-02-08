@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./navbar";
 import Quotes from "./Quotes";
-import "./App.css"; // Assuming you have a CSS file for styling
+import "./App.css";
 
 const App = () => {
   // Sample data for quotes
