@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "./navbar";
 import Quotes from "./Quotes";
 import "./App.css";
@@ -95,6 +95,14 @@ const App = () => {
   const categories = quotesData;
 
   const [filteredQuotes, setFilteredQuotes] = useState([]);
+
+  // Set filteredQuotes to all quotes when component mounts
+  useEffect(() => {
+    const allQuotes = Object.values(quotesData).flatMap((category) =>
+      Object.values(category).flatMap((subcategory) => subcategory)
+    );
+    setFilteredQuotes(allQuotes);
+  }, []); // Empty dependency array to run only once when component mounts
 
   const onSelectCategory = (category, subcategory) => {
     if (subcategory) {
