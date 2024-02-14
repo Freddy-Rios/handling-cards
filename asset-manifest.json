@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/handling-cards/static/css/main.1e4c1fb7.css",
-    "main.js": "/handling-cards/static/js/main.38aeb4b0.js",
+    "main.js": "/handling-cards/static/js/main.30393fde.js",
     "index.html": "/handling-cards/index.html",
     "main.1e4c1fb7.css.map": "/handling-cards/static/css/main.1e4c1fb7.css.map",
-    "main.38aeb4b0.js.map": "/handling-cards/static/js/main.38aeb4b0.js.map"
+    "main.30393fde.js.map": "/handling-cards/static/js/main.30393fde.js.map"
   },
   "entrypoints": [
     "static/css/main.1e4c1fb7.css",
-    "static/js/main.38aeb4b0.js"
+    "static/js/main.30393fde.js"
   ]
 }
